@@ -1,4 +1,3 @@
-# invoi_proc
 # Processamento automático de invoices a partir de arquivos PDF
 
 #### Aluno: [Edson Andrade de Moraes](https://github.com/EdsonAndMor/)
@@ -48,20 +47,13 @@ O notebook foi criado com a premissa que as invoices seriam alimentadas em padr�
 
 Foram utilizados 4 documentos para testar a eficácia do notebook gerado. 3 documentos eram invoices reais emitidas por empresas do mercado e uma era um documento gerado nos ambientes de teste da Petrobras com valores fictícios, mas num padrão similar ao que é utilizado pela empresa. Nem todos os documentos possuem todas as informações de cabeçalho que elencamos como mais relevantes. Portanto, considerarmos para efeito de cálculo somente as informações que poderiam efetivamente ser extraídas.
 
-Variantes	               % Itens	    Observação	                    % Cabeçalho    Observação	                                  % Média 
-1  - Doc. Real	           100%	      Exportou todo os dados p/ o CSV	50%	           4 das 8 informações estavam disponíveis      75%
-                                                                                     no doc. Recuperou 2.    
-
-2 - Doc. ambiente de teste 100%	        Exportou todo os dados p/ o CSV	100%	       8 informações diposniveis. Recuperou as 8.   100%
-
-3 - Doc. Real	           0%	        Itens apresetandos em forma        60%	         5 de 8 informações estavam disponiveis.      30%
-                                    quase textual. Fazendo com                       3 foram extraídas.  
-                                    que a premissa de extrair os 
-                                    itens de em um forma de uma 	
-                                    tabela falhasse totalmente.
-
-4 - Doc. Real	           0%	        A formatação muito irregular        0%            A formatação muito irregular                0%
-                                    inviabilizou a extração                           inviabilizou a extração
+|Variantes	              |% Itens	| Observação	                    |% Cabeçalho |Observação	                             |% Média|
+|:----------------------- |:-------:|:--------------------------------|:----------:|----------------------------------------:|:-----:|
+|1  - Doc. Real|100%|Exportou todo os dados p/ o CSV	|50%|4 das 8 informações estavam disponíveis <br> no doc. Recuperou 2.|75%|
+|2 - Doc. amb. de teste|100%|Exportou todo os dados p/ o CSV	|100%	|8 informações diposniveis. Recuperou 8.  |100%|
+|3 - Doc. Real|0%|Itens apresetandos em forma<br> quase textual. Fazendo com<br> que a premissa de extrair os<br>  itens de em um forma de uma<br> itens de em um forma de uma<br> itens de em um forma de uma<br> tabela falhasse totalmente.|60%|5 de 8 informações estavam disponiveis. 3 foram extraídas.|30%|
+|4 - Doc. Real|0%|A formatação muito irregular<br> inviabilizou a extração|0%| A formatação muito irregular<br> inviabilizou a extração|0%|
+                                                               
 
 ### 4. Conclusões
 
