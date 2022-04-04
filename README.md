@@ -1,7 +1,7 @@
-# Processamento automático de invoices a partir de arquivos PDF
+# Processamento_Automático_de_Invoices_a_partir_de_Arquivos_PDF
 
 #### Aluno: [Edson Andrade de Moraes](https://github.com/EdsonAndMor/)
-#### Orientador: [Leonardo Alfredo Forero Mendonza]
+#### Orientador: [Leonardo Alfredo Forero Mendonza](https://github.com/leofome8)
 ---
 
 Trabalho apresentado ao curso [BI MASTER - Turma 2019-004](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
@@ -63,4 +63,9 @@ O resultado médio atingido pela POC foi de 51% de extração das informações 
 - Utilização de técnicas de processamento de linguagem natural:  mostraram-se eficazes na identificação das informações textuais, principalmente de datas.
 - Hipóteses para melhoria da solução: utilização mais intensa técnicas de processamento de linguagem natural, com possível utilização de diferentes corpora para identificar melhor as informações a serem extraídas. Notoriamente no caso de invoices que tem uma formatação mais semelhante a texto livre, essas técnicas tem potencial de melhorar o percentual de extração das informações.
 
+---
+
+Pontifícia Universidade Católica do Rio de Janeiro
+
+Curso de Pós Graduação *Business Intelligence Master*
 
